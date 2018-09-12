@@ -35,6 +35,22 @@ margin-bottom: 0;
 font-size: 125%;
 }
 
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 6px 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #0f0;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
 .alert {
 text-align: center;
 }
